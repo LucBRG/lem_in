@@ -6,7 +6,7 @@
 /*   By: lbrugero <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/03/14 13:11:29 by lbrugero          #+#    #+#             */
-/*   Updated: 2017/03/14 13:11:30 by lbrugero         ###   ########.fr       */
+/*   Updated: 2017/06/14 10:02:19 by lbrugero         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -73,6 +73,7 @@ static void	parsing_all(t_data *data, int *total_spe)
 		ft_putendl(line);
 		free(line);
 	}
+	check_door(*total_spe, 0);
 }
 
 int			salle_exist(t_data *data, char *name, int coord[2])

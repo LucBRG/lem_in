@@ -6,7 +6,7 @@
 /*   By: lbrugero <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/03/20 15:12:04 by lbrugero          #+#    #+#             */
-/*   Updated: 2017/03/20 15:12:06 by lbrugero         ###   ########.fr       */
+/*   Updated: 2017/06/14 10:00:18 by lbrugero         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,7 +36,7 @@ void		check_door(int total_spe, int is_tube)
 	{
 		if (!(total_spe & SALLE_START) || !(total_spe & SALLE_END))
 		{
-			ft_putendl_fd("\nERROR", 2);
+			ft_putendl_fd("ERROR", 2);
 			exit(EXIT_FAILURE);
 		}
 	}
